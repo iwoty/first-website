@@ -3,6 +3,54 @@ body {
     font-family: Tahoma, Geneva, sans-serif;
 }
 
-.content {
-    text_align: center;
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+body {
+    margin: auto;
+    width: 80%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.contact-form {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+}
+
+.contact-form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.inputs {
+    width: 25%;
+}
+
+.textbox {
+    width: 75%;
+}
+
+.inputs ul {
+    list-style-type: none;
+}
+
+textarea {
+    height: 120px;
+    width: 95% !important;
+}
+
+.contact-form h1 {
+    display: flex;
+    justify-content: center;
 }
