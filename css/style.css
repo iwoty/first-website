@@ -1,56 +1,76 @@
 body {
-    background: green;
+    background: #cce5ff;
     font-family: Tahoma, Geneva, sans-serif;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-body {
     margin: auto;
     width: 80%;
-    border: 3px solid #73AD21;
+    border: 3px solid #3396ff;
     padding: 10px;
 }
 
+/*contact*/
 .contact-form {
     margin: auto;
     width: 60%;
-    border: 3px solid #73AD21;
+    border: 3px solid #3396ff;
     padding: 10px;
 }
-
 .column {
     float: left;
 }
-
 .contact-form::after {
     content: "";
     clear: both;
     display: table;
 }
-
 .inputs {
     width: 25%;
 }
-
 .textbox {
     width: 75%;
 }
-
 .inputs ul {
     list-style-type: none;
 }
-
 textarea {
     height: 120px;
     width: 95% !important;
 }
-
 .contact-form h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/*menu*/
+.main-menu {
+    margin: auto;
+    width: 75%;
+}
+.menu {
+    float: left;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu li {
+    display: inline;
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.main_menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.home, .places, .timeline, .flights, .assignment, .contact {
+    width: 15%;
+}
+.menu li:hover {
+    background-color: #ff0000;
+}
+
+.flights-content {
     display: flex;
     justify-content: center;
 }
